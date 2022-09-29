@@ -10,9 +10,9 @@ namespace Assignment1.Controllers
         /// <param name="id"> Any integer values </param>
         /// <returns> Returns the integer value of 10 plus input {id} </returns>
         /// <example>
-        ///     api/AddTen/21 => return 31
-        ///     api/AddTen/0 => return 10
-        ///     api/AddTen/-9 => return 1
+        ///     api/AddTen/21 => 31
+        ///     api/AddTen/0 => 10
+        ///     api/AddTen/-9 => 1
         /// </example>
 
         // GET /api/AddTen/{id}
