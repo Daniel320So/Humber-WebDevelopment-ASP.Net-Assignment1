@@ -25,6 +25,7 @@ namespace Assignment1.Controllers
         /// </example>
 
         // GET /api/HostingCost/{id}
+        [HttpGet]
         public IEnumerable<string> Get(int id)
         {   
             int fortnight = 14;

@@ -12,7 +12,8 @@ namespace Assignment1.Controllers
         ///     /api/Greeting => "Hello World!"
         /// </example>
 
-        // GET /api/Greeting
+        // POST /api/Greeting
+        [HttpPost]
         public string Get()
         {
             return "Hello World!";
@@ -30,6 +31,7 @@ namespace Assignment1.Controllers
         /// </example>
 
         // GET /api/Greeting/{id}
+        [HttpGet]
         public string Get(int id)
         {
             return "Greetings to " + id + " people!";

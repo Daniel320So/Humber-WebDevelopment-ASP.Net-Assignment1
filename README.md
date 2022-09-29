@@ -28,7 +28,7 @@ Please follow below steps to test the assignment1
 ## 4. Test Q3 - Greeting
 
 ```bash
-    curl https://localhost:44302/api/Greeting
+    curl -d POST https://localhost:44302/api/Greeting
 ```
 
 ## 5. Test Q4 - Greeting with Number of People

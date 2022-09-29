@@ -21,6 +21,7 @@ namespace Assignment1.Controllers
         /// </example>
 
         // GET /api/NumberMachine/{id}
+        [HttpGet]
         public int Get(int id)
         {
             int value0 = (id * (-1) + 5);

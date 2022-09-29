@@ -17,6 +17,7 @@ namespace Assignment1.Controllers
         /// </example>
 
         // GET /api/Square/{id}
+        [HttpGet]
         public int Get(int id)
         {
             return id*id;
