@@ -41,16 +41,16 @@ Please follow below steps to test the assignment1
 
 ## 6 Test Q5 - Number Machine
 
-``bash
+```bash
     curl https://localhost:44302/api/NumberMachine/2
     curl https://localhost:44302/api/NumberMachine/-5
     curl https://localhost:44302/api/NumberMachine/0
     curl https://localhost:44302/api/NumberMachine/5
-``
+```
 
 ## 7 Test Q6 - Hosting Cost
 
-``bash
+```bash
     curl https://localhost:44302/api/HostingCost/0
     curl https://localhost:44302/api/HostingCost/14
     curl https://localhost:44302/api/HostingCost/15
