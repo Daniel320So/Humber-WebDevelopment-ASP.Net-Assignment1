@@ -21,7 +21,7 @@ namespace Assignment1.Controllers
         /// <summary>
         ///     This API returns the string "Greetings to {id} people!"
         /// </summary>
-        /// <param name="id"> Number of people to greet </param>
+        /// <param name="id"> Number of people to greet in integer </param>
         /// <returns> Returns the string "Greetings to {id} people!"</returns>
         /// <example> 
         ///     /api/Greeting/3 => "Greetings to 3 people!"

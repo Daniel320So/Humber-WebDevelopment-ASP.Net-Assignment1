@@ -5,10 +5,14 @@ namespace Assignment1.Controllers
     public class NumberMachineController : ApiController
     {
         /// <summary>
-        ///     This API returns the value that the integer input {id} is times -1, add 5, square and times 3
+        ///     This API returns the value that the integer input {id} is 
+        ///     first multiplied by -1,
+        ///     then added by 5,
+        ///     squared,
+        ///     and multiplied by 3
         /// </summary>
-        /// <param int name="id"> Any Integer Value </param>
-        /// <returns> Returns the integer value that the input {id} is times -1, add 5, squared and times 3 </returns>
+        /// <param name="id"> Any Integer Value </param>
+        /// <returns> Returns the integer value that the input {id} is multiplied by -1, then added by 5, squared and multiplied by 3 </returns>
         /// <example> 
         ///     /api/NumberMachine/-2 => 147
         ///     /api/NumberMachine/-5 => 300

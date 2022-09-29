@@ -7,7 +7,7 @@ namespace Assignment1.Controllers
         /// <summary>
         ///     This API returns the square of the integer input {id}
         /// </summary>
-        /// <param int name ="id"> Any Integer Input </param>
+        /// <param name ="id"> Any Integer Input </param>
         /// <returns> Return the integer value of the square of the integer input {id} </returns>
         /// <example> 
         ///     /api/Square/2 => 4
