@@ -11,7 +11,7 @@ Please follow below steps to test the assignment1
 ## 2. Test Q1 - Add Ten
 
 ```bash
-	curl https://localhost:44302/api/AddTen/21
+    curl https://localhost:44302/api/AddTen/21
     curl https://localhost:44302/api/AddTen/0
     curl https://localhost:44302/api/AddTen/-9
 ```
